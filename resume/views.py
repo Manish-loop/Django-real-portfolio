@@ -4,7 +4,7 @@ from django.contrib.staticfiles.storage import staticfiles_storage
 
 # Create your views here.
 def home(request):
-    return render(request, "resume/home.html")
+    return render(request, "resume/index.html")
 
 def about(request):
     return render(request, "resume/about.html")
